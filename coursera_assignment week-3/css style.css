@@ -1,0 +1,108 @@
+*{
+    background: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+   background-image: url('main\ bg.jpg'); 
+   background-position: center;  
+   background-size: cover; 
+   font-weight: bolder;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+}
+#menu {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder; 
+    background-color: orangered;
+    padding-top: 10px;
+}
+.chicken {
+    display: inline-block; 
+    width: 28%;
+    /* text-align: justify;  */
+    margin: 100px 10px 10px 10px;
+   background-color: darksalmon; 
+   border-style: solid ;
+   border-radius: 5px;
+   border-color: orangered;    
+   padding: 10px;
+    float: left;
+}
+.Pizza {
+    display: inline-block;
+    width: 28%;
+    text-align: justify;
+    margin: 100px 10px 10px 10px;
+   background-color: darksalmon;
+   border-style: solid ;
+   border-radius: 5px;
+   border-color: orangered;    
+   padding: 10px;
+  
+
+}
+.burger {
+    display: inline-block;
+    width: 28%;
+    text-align: justify;
+    margin: 100px 10px 10px 10px;
+   background-color: darksalmon;
+   border-style: solid ;
+   border-radius: 5px;
+   border-color: orangered;    
+   padding: 10px;
+
+}
+
+
+.item_name {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: orangered;
+    background-color: orangered;
+    padding-top: 0px;
+    margin-top:0px ;
+    text-align: right ;
+}
+.chicken:hover {
+    cursor: pointer;
+    background-image: url('chicken.jpeg');
+    background-position: center; 
+    background-size: cover cover;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bolder;
+}
+.burger:hover {
+    cursor: pointer;
+    background-image: url('burger.jpeg');
+    background-position: center; 
+    background-size: cover cover;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bolder;
+}
+.Pizza:hover {
+    cursor: pointer;
+    background-image: url('pizza.jpeg');
+    background-position: center; 
+    background-size: cover cover;
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bolder;
+}
+@media( min-width: 992px)
+{
+    .col-lg-4 { width:30% }
+}
+@media( min-width:768px) and (max-width:991px) 
+{
+    .col-md-6 { width:45% }
+}
+@media(max-width:767px)
+{
+    .col-sm-12 { width:100% }    
+}
